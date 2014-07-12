@@ -44,6 +44,5 @@ lines(workingdata$timedate, workingdata$Global_reactive_power)
 
 
 #Copy the histogram to the png file
-#dev.copy(png, file="plot4.png")
 dev.print(png, width=609, height=580, file="plot4.png")
 dev.off()
